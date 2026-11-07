@@ -1,0 +1,44 @@
+{
+  "samples": 400,
+  "mse": 0.05704138521105051,
+  "ssim": 0.3056458309292793,
+  "pearson": 0.41351309418678284,
+  "depth_identification_accuracy": 0.7793750017881393,
+  "crosstalk_penalty": 0.08891923259943724,
+  "loss": 0.7286786613985896,
+  "per_plane": [
+    {
+      "distance_mm": 24.1,
+      "mse": 0.056357864290475845,
+      "ssim": 0.30800870060920715,
+      "pearson": 0.4273932874202728,
+      "depth_identification_accuracy": 0.8774999976158142
+    },
+    {
+      "distance_mm": 25.3,
+      "mse": 0.057637736201286316,
+      "ssim": 0.30261093378067017,
+      "pearson": 0.4295474886894226,
+      "depth_identification_accuracy": 0.8125
+    },
+    {
+      "distance_mm": 26.5,
+      "mse": 0.05725972354412079,
+      "ssim": 0.29942601919174194,
+      "pearson": 0.39878222346305847,
+      "depth_identification_accuracy": 0.675000011920929
+    },
+    {
+      "distance_mm": 27.7,
+      "mse": 0.05691021680831909,
+      "ssim": 0.31253767013549805,
+      "pearson": 0.39832937717437744,
+      "depth_identification_accuracy": 0.7524999976158142
+    }
+  ],
+  "phase_quantized_to_8bit": true,
+  "split": "validation",
+  "checkpoint": "weights\\model.pt",
+  "epoch": 13,
+  "manifest_sha256": "9f554a798017d0a2b5941c52f640b62683e667ad978bcf99344ae60a40ffaf6c"
+}

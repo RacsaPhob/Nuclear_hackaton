@@ -1,0 +1,58 @@
+{
+  "primary_metric": "SSIM",
+  "secondary_metric": "Pearson",
+  "selection_split": "validation",
+  "selected_source": "runs\\phase_unet_mixed\\best.pt",
+  "validation": {
+    "samples": 400,
+    "mse": 0.05704138521105051,
+    "ssim": 0.3056458309292793,
+    "pearson": 0.41351309418678284,
+    "loss": 0.5508401961997151,
+    "per_plane": [
+      {
+        "distance_mm": 24.1,
+        "mse": 0.056357864290475845,
+        "ssim": 0.30800870060920715,
+        "pearson": 0.4273932874202728
+      },
+      {
+        "distance_mm": 25.3,
+        "mse": 0.057637736201286316,
+        "ssim": 0.30261093378067017,
+        "pearson": 0.4295474886894226
+      },
+      {
+        "distance_mm": 26.5,
+        "mse": 0.05725972354412079,
+        "ssim": 0.29942601919174194,
+        "pearson": 0.39878222346305847
+      },
+      {
+        "distance_mm": 27.7,
+        "mse": 0.05691021680831909,
+        "ssim": 0.31253767013549805,
+        "pearson": 0.39832937717437744
+      }
+    ],
+    "phase_quantized_to_8bit": true
+  },
+  "checkpoint_sha256": "8a27dcb6a51d18a82e58bcd0d7cc422f6f66bcfa6af8edcfdc8e1f21cf3f9053",
+  "candidates": [
+    {
+      "source": "runs\\phase_unet\\best.pt",
+      "ssim": 0.2691844403743744,
+      "pearson": 0.44225917756557465
+    },
+    {
+      "source": "runs\\phase_unet_mixed\\best.pt",
+      "ssim": 0.3056458309292793,
+      "pearson": 0.41351309418678284
+    },
+    {
+      "source": "runs\\phase_unet_initial\\best.pt",
+      "ssim": 0.08375407196581364,
+      "pearson": 0.17578168585896492
+    }
+  ]
+}

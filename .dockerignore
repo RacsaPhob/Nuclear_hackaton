@@ -1,0 +1,13 @@
+**
+!Dockerfile
+!requirements.txt
+!*.py
+!weights/
+!weights/**
+!examples/
+!examples/**
+!tests/
+!tests/**
+!README.md
+**/__pycache__/
+**/*.pyc

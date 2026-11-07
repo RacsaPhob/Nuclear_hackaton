@@ -1,0 +1,87 @@
+{
+  "dataset": "DIV2K",
+  "source": "https://data.vision.ee.ethz.ch/cvl/DIV2K/",
+  "usage": "Academic research only",
+  "sets": [
+    {
+      "set": "set_01",
+      "dataset_record": "test_000000",
+      "source_images": [
+        "images/test/0859_03.png",
+        "images/test/0842_03.png",
+        "images/test/0890_03.png",
+        "images/test/0860_03.png"
+      ],
+      "distances_mm": [
+        24.1,
+        25.3,
+        26.5,
+        27.7
+      ]
+    },
+    {
+      "set": "set_02",
+      "dataset_record": "test_000001",
+      "source_images": [
+        "images/test/0855_00.png",
+        "images/test/0832_00.png",
+        "images/test/0883_00.png",
+        "images/test/0847_00.png"
+      ],
+      "distances_mm": [
+        24.1,
+        25.3,
+        26.5,
+        27.7
+      ]
+    },
+    {
+      "set": "set_03",
+      "dataset_record": "test_000002",
+      "source_images": [
+        "images/test/0843_00.png",
+        "images/test/0818_00.png",
+        "images/test/0888_00.png",
+        "images/test/0820_00.png"
+      ],
+      "distances_mm": [
+        24.1,
+        25.3,
+        26.5,
+        27.7
+      ]
+    },
+    {
+      "set": "set_04",
+      "dataset_record": "test_000003",
+      "source_images": [
+        "images/test/0847_07.png",
+        "images/test/0850_07.png",
+        "images/test/0870_07.png",
+        "images/test/0876_07.png"
+      ],
+      "distances_mm": [
+        24.1,
+        25.3,
+        26.5,
+        27.7
+      ]
+    },
+    {
+      "set": "set_05",
+      "dataset_record": "test_000004",
+      "source_images": [
+        "images/test/0814_09.png",
+        "images/test/0817_09.png",
+        "images/test/0856_09.png",
+        "images/test/0829_09.png"
+      ],
+      "distances_mm": [
+        24.1,
+        25.3,
+        26.5,
+        27.7
+      ]
+    }
+  ]
+}

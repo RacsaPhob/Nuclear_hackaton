@@ -1,0 +1,198 @@
+{
+  "set_count": 5,
+  "method": "neural",
+  "device": "cpu",
+  "checkpoint": "/app/weights/model.pt",
+  "model_load_ms": 20.136391000050935,
+  "total_seconds": 1.119430098000521,
+  "ssim": 0.3035488314940859,
+  "pearson": 0.4188061346059365,
+  "mean_synthesis_ms": 58.4716525998374,
+  "sets": [
+    {
+      "set": "set_01",
+      "doe": "set_01/doe.png",
+      "synthesis_ms": 96.70012500100711,
+      "ssim": 0.3116624703678684,
+      "pearson": 0.3691987298853331,
+      "per_plane": [
+        {
+          "distance_mm": 24.1,
+          "target": "/app/examples/sets/set_01/1.png",
+          "reconstruction": "reconstruction_24.1mm.png",
+          "pearson": 0.31481443506829976,
+          "ssim": 0.3163092687725917
+        },
+        {
+          "distance_mm": 25.3,
+          "target": "/app/examples/sets/set_01/2.png",
+          "reconstruction": "reconstruction_25.3mm.png",
+          "pearson": 0.3785900411673286,
+          "ssim": 0.23860919075968465
+        },
+        {
+          "distance_mm": 26.5,
+          "target": "/app/examples/sets/set_01/3.png",
+          "reconstruction": "reconstruction_26.5mm.png",
+          "pearson": 0.358268690759706,
+          "ssim": 0.3032495010380668
+        },
+        {
+          "distance_mm": 27.7,
+          "target": "/app/examples/sets/set_01/4.png",
+          "reconstruction": "reconstruction_27.7mm.png",
+          "pearson": 0.42512175254599793,
+          "ssim": 0.38848192090113065
+        }
+      ]
+    },
+    {
+      "set": "set_02",
+      "doe": "set_02/doe.png",
+      "synthesis_ms": 35.32076999908895,
+      "ssim": 0.30750949260412863,
+      "pearson": 0.46156867498018556,
+      "per_plane": [
+        {
+          "distance_mm": 24.1,
+          "target": "/app/examples/sets/set_02/1.png",
+          "reconstruction": "reconstruction_24.1mm.png",
+          "pearson": 0.46222086416388825,
+          "ssim": 0.21901234068232484
+        },
+        {
+          "distance_mm": 25.3,
+          "target": "/app/examples/sets/set_02/2.png",
+          "reconstruction": "reconstruction_25.3mm.png",
+          "pearson": 0.5459834098762691,
+          "ssim": 0.3387451756257711
+        },
+        {
+          "distance_mm": 26.5,
+          "target": "/app/examples/sets/set_02/3.png",
+          "reconstruction": "reconstruction_26.5mm.png",
+          "pearson": 0.3715482254349393,
+          "ssim": 0.3258684638121982
+        },
+        {
+          "distance_mm": 27.7,
+          "target": "/app/examples/sets/set_02/4.png",
+          "reconstruction": "reconstruction_27.7mm.png",
+          "pearson": 0.46652220044564546,
+          "ssim": 0.34641199029622033
+        }
+      ]
+    },
+    {
+      "set": "set_03",
+      "doe": "set_03/doe.png",
+      "synthesis_ms": 27.94413599986001,
+      "ssim": 0.2658459606830062,
+      "pearson": 0.49513430878516196,
+      "per_plane": [
+        {
+          "distance_mm": 24.1,
+          "target": "/app/examples/sets/set_03/1.png",
+          "reconstruction": "reconstruction_24.1mm.png",
+          "pearson": 0.5365804668150519,
+          "ssim": 0.24670908962753385
+        },
+        {
+          "distance_mm": 25.3,
+          "target": "/app/examples/sets/set_03/2.png",
+          "reconstruction": "reconstruction_25.3mm.png",
+          "pearson": 0.35957213404062216,
+          "ssim": 0.20268413369430444
+        },
+        {
+          "distance_mm": 26.5,
+          "target": "/app/examples/sets/set_03/3.png",
+          "reconstruction": "reconstruction_26.5mm.png",
+          "pearson": 0.5171484004851171,
+          "ssim": 0.33470579693520647
+        },
+        {
+          "distance_mm": 27.7,
+          "target": "/app/examples/sets/set_03/4.png",
+          "reconstruction": "reconstruction_27.7mm.png",
+          "pearson": 0.5672362337998565,
+          "ssim": 0.27928482247498
+        }
+      ]
+    },
+    {
+      "set": "set_04",
+      "doe": "set_04/doe.png",
+      "synthesis_ms": 97.8798670003016,
+      "ssim": 0.3256447182194282,
+      "pearson": 0.4467714670819014,
+      "per_plane": [
+        {
+          "distance_mm": 24.1,
+          "target": "/app/examples/sets/set_04/1.png",
+          "reconstruction": "reconstruction_24.1mm.png",
+          "pearson": 0.4579809217976137,
+          "ssim": 0.3162140196933052
+        },
+        {
+          "distance_mm": 25.3,
+          "target": "/app/examples/sets/set_04/2.png",
+          "reconstruction": "reconstruction_25.3mm.png",
+          "pearson": 0.4271148248202629,
+          "ssim": 0.3132992240263083
+        },
+        {
+          "distance_mm": 26.5,
+          "target": "/app/examples/sets/set_04/3.png",
+          "reconstruction": "reconstruction_26.5mm.png",
+          "pearson": 0.3613263002077264,
+          "ssim": 0.3194102001126623
+        },
+        {
+          "distance_mm": 27.7,
+          "target": "/app/examples/sets/set_04/4.png",
+          "reconstruction": "reconstruction_27.7mm.png",
+          "pearson": 0.5406638215020027,
+          "ssim": 0.3536554290454371
+        }
+      ]
+    },
+    {
+      "set": "set_05",
+      "doe": "set_05/doe.png",
+      "synthesis_ms": 34.51336499892932,
+      "ssim": 0.30708151559599806,
+      "pearson": 0.3213574922971005,
+      "per_plane": [
+        {
+          "distance_mm": 24.1,
+          "target": "/app/examples/sets/set_05/1.png",
+          "reconstruction": "reconstruction_24.1mm.png",
+          "pearson": 0.28366913217475664,
+          "ssim": 0.3058956483534423
+        },
+        {
+          "distance_mm": 25.3,
+          "target": "/app/examples/sets/set_05/2.png",
+          "reconstruction": "reconstruction_25.3mm.png",
+          "pearson": 0.31891281835000873,
+          "ssim": 0.32178240373634637
+        },
+        {
+          "distance_mm": 26.5,
+          "target": "/app/examples/sets/set_05/3.png",
+          "reconstruction": "reconstruction_26.5mm.png",
+          "pearson": 0.33660217855091124,
+          "ssim": 0.28488734142673094
+        },
+        {
+          "distance_mm": 27.7,
+          "target": "/app/examples/sets/set_05/4.png",
+          "reconstruction": "reconstruction_27.7mm.png",
+          "pearson": 0.3462458401127253,
+          "ssim": 0.31576066886747267
+        }
+      ]
+    }
+  ]
+}
